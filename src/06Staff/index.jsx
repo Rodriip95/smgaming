@@ -6,7 +6,7 @@ export default function Staff(){
     return(
         <div id="staff" className="container mt-4">
             <div className="text-center title-staff">
-                <h1>Miembros del <span>Staff</span></h1>
+                <h1>Miembros del <span className="bg-dark">Staff</span></h1>
             </div>
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-4 caja-staff">

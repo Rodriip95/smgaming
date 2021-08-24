@@ -1,3 +1,5 @@
+@import "../vars/var.scss";
+
 .caja-staff{
     div{
         height: 480px;
@@ -18,7 +20,7 @@
         border-radius: 100%;
     }
     h4{
-        color: #f8e02c;
+        color: $vivos;
     }
     p{
         color: aliceblue;
@@ -30,6 +32,7 @@
 
 .title-staff{
     span{
-        color: #f8e02c
+        font-family: $fuente_principal;
+        color: $vivos
     }
 }

@@ -1,0 +1,31 @@
+@import "../vars/var.scss";
+
+.navbar{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5)
+}
+.navbar-toggler{
+    i{
+        font-size: 2rem;
+        color: #fff;
+    }
+}
+.nav-link{
+    font-size: 1.5rem;
+    color: #fff !important;
+    border-bottom: 2px solid transparent;
+    transition-delay: 10ms;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in;
+    &:hover{
+        border-bottom: 2px solid $vivos;
+        color: $vivos !important;
+        transition-delay: 10ms;
+        transition-duration: 100ms;
+        transition-timing-function: ease-in;
+    }
+}
+.smg-itm{
+    font-family: $fuente_principal;
+}
+

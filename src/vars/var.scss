@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap');
 
 $aux: 'Bebas Neue', cursive;
 $fuente_principal: 'Anton', sans-serif;
+$fuente_dos: 'Ubuntu', sans-serif;
+$fuente_aux: 'Heebo', sans-serif;
+
+
+$vivos: rgb(228, 199, 37);
 
 body{
     overflow-x: hidden;
+}
+p, span, a{
+    font-family: $fuente_aux;
 }
 
 h1, h2, h3, h4, h5, h6{
