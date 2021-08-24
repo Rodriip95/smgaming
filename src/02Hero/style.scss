@@ -1,0 +1,17 @@
+#hero{
+    height: 100vh;
+    z-index: -1;
+}
+.fondo{
+    background-image: url("../images/hero.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+.hero-title{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}

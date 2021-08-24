@@ -1,0 +1,35 @@
+.caja-staff{
+    div{
+        height: 480px;
+        margin: 10px;
+        padding: 20px 0;
+        background-color: #212529;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    text-align: center;
+    margin: 2rem 0;
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    h4{
+        color: #f8e02c;
+    }
+    p{
+        color: aliceblue;
+    }
+    .staff-fun{
+        color: rgb(121, 121, 121);
+    }
+}
+
+.title-staff{
+    span{
+        color: #f8e02c
+    }
+}
